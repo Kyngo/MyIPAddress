@@ -7,12 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DE1E0F99269F2BF7003ACF6F /* My_IP_AddressApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1E0F98269F2BF7003ACF6F /* My_IP_AddressApp.swift */; };
+		DE1E0F99269F2BF7003ACF6F /* MyIPAddressApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1E0F98269F2BF7003ACF6F /* MyIPAddressApp.swift */; };
 		DE1E0F9B269F2BF7003ACF6F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1E0F9A269F2BF7003ACF6F /* ContentView.swift */; };
 		DE1E0F9D269F2BF7003ACF6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE1E0F9C269F2BF7003ACF6F /* Assets.xcassets */; };
 		DE1E0FA0269F2BF7003ACF6F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE1E0F9F269F2BF7003ACF6F /* Preview Assets.xcassets */; };
-		DE1E0FAA269F2BF7003ACF6F /* My_IP_AddressTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1E0FA9269F2BF7003ACF6F /* My_IP_AddressTests.swift */; };
-		DE1E0FB4269F2BF7003ACF6F /* My_IP_AddressUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1E0FB3269F2BF7003ACF6F /* My_IP_AddressUITests.swift */; };
+		DE1E0FAA269F2BF7003ACF6F /* MyIPAddressTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1E0FA9269F2BF7003ACF6F /* MyIPAddressTests.swift */; };
+		DE1E0FB4269F2BF7003ACF6F /* MyIPAddressUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1E0FB3269F2BF7003ACF6F /* MyIPAddressUITests.swift */; };
+		DE1E0FC2269F2C4B003ACF6F /* IPInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1E0FC1269F2C4B003ACF6F /* IPInfo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,15 +34,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		DE1E0F95269F2BF7003ACF6F /* My IP Address.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My IP Address.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DE1E0F98269F2BF7003ACF6F /* My_IP_AddressApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_IP_AddressApp.swift; sourceTree = "<group>"; };
+		DE1E0F95269F2BF7003ACF6F /* MyIPAddress.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyIPAddress.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE1E0F98269F2BF7003ACF6F /* MyIPAddressApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyIPAddressApp.swift; sourceTree = "<group>"; };
 		DE1E0F9A269F2BF7003ACF6F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DE1E0F9C269F2BF7003ACF6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE1E0F9F269F2BF7003ACF6F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		DE1E0FA5269F2BF7003ACF6F /* My IP AddressTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "My IP AddressTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DE1E0FA9269F2BF7003ACF6F /* My_IP_AddressTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_IP_AddressTests.swift; sourceTree = "<group>"; };
-		DE1E0FAF269F2BF7003ACF6F /* My IP AddressUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "My IP AddressUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DE1E0FB3269F2BF7003ACF6F /* My_IP_AddressUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_IP_AddressUITests.swift; sourceTree = "<group>"; };
+		DE1E0FA5269F2BF7003ACF6F /* MyIPAddressTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyIPAddressTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE1E0FA9269F2BF7003ACF6F /* MyIPAddressTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyIPAddressTests.swift; sourceTree = "<group>"; };
+		DE1E0FAF269F2BF7003ACF6F /* MyIPAddressUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyIPAddressUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE1E0FB3269F2BF7003ACF6F /* MyIPAddressUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyIPAddressUITests.swift; sourceTree = "<group>"; };
+		DE1E0FC0269F2C17003ACF6F /* My-IP-Address-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "My-IP-Address-Info.plist"; sourceTree = SOURCE_ROOT; };
+		DE1E0FC1269F2C4B003ACF6F /* IPInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IPInfo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,9 +75,9 @@
 		DE1E0F8C269F2BF7003ACF6F = {
 			isa = PBXGroup;
 			children = (
-				DE1E0F97269F2BF7003ACF6F /* My IP Address */,
-				DE1E0FA8269F2BF7003ACF6F /* My IP AddressTests */,
-				DE1E0FB2269F2BF7003ACF6F /* My IP AddressUITests */,
+				DE1E0F97269F2BF7003ACF6F /* MyIPAddress */,
+				DE1E0FA8269F2BF7003ACF6F /* MyIPAddressTests */,
+				DE1E0FB2269F2BF7003ACF6F /* MyIPAddressUITests */,
 				DE1E0F96269F2BF7003ACF6F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -82,22 +85,24 @@
 		DE1E0F96269F2BF7003ACF6F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DE1E0F95269F2BF7003ACF6F /* My IP Address.app */,
-				DE1E0FA5269F2BF7003ACF6F /* My IP AddressTests.xctest */,
-				DE1E0FAF269F2BF7003ACF6F /* My IP AddressUITests.xctest */,
+				DE1E0F95269F2BF7003ACF6F /* MyIPAddress.app */,
+				DE1E0FA5269F2BF7003ACF6F /* MyIPAddressTests.xctest */,
+				DE1E0FAF269F2BF7003ACF6F /* MyIPAddressUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DE1E0F97269F2BF7003ACF6F /* My IP Address */ = {
+		DE1E0F97269F2BF7003ACF6F /* MyIPAddress */ = {
 			isa = PBXGroup;
 			children = (
-				DE1E0F98269F2BF7003ACF6F /* My_IP_AddressApp.swift */,
+				DE1E0FC0269F2C17003ACF6F /* My-IP-Address-Info.plist */,
+				DE1E0F98269F2BF7003ACF6F /* MyIPAddressApp.swift */,
 				DE1E0F9A269F2BF7003ACF6F /* ContentView.swift */,
 				DE1E0F9C269F2BF7003ACF6F /* Assets.xcassets */,
 				DE1E0F9E269F2BF7003ACF6F /* Preview Content */,
+				DE1E0FC1269F2C4B003ACF6F /* IPInfo.swift */,
 			);
-			path = "My IP Address";
+			path = MyIPAddress;
 			sourceTree = "<group>";
 		};
 		DE1E0F9E269F2BF7003ACF6F /* Preview Content */ = {
@@ -108,28 +113,28 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		DE1E0FA8269F2BF7003ACF6F /* My IP AddressTests */ = {
+		DE1E0FA8269F2BF7003ACF6F /* MyIPAddressTests */ = {
 			isa = PBXGroup;
 			children = (
-				DE1E0FA9269F2BF7003ACF6F /* My_IP_AddressTests.swift */,
+				DE1E0FA9269F2BF7003ACF6F /* MyIPAddressTests.swift */,
 			);
-			path = "My IP AddressTests";
+			path = MyIPAddressTests;
 			sourceTree = "<group>";
 		};
-		DE1E0FB2269F2BF7003ACF6F /* My IP AddressUITests */ = {
+		DE1E0FB2269F2BF7003ACF6F /* MyIPAddressUITests */ = {
 			isa = PBXGroup;
 			children = (
-				DE1E0FB3269F2BF7003ACF6F /* My_IP_AddressUITests.swift */,
+				DE1E0FB3269F2BF7003ACF6F /* MyIPAddressUITests.swift */,
 			);
-			path = "My IP AddressUITests";
+			path = MyIPAddressUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DE1E0F94269F2BF7003ACF6F /* My IP Address */ = {
+		DE1E0F94269F2BF7003ACF6F /* MyIPAddress */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DE1E0FB7269F2BF7003ACF6F /* Build configuration list for PBXNativeTarget "My IP Address" */;
+			buildConfigurationList = DE1E0FB7269F2BF7003ACF6F /* Build configuration list for PBXNativeTarget "MyIPAddress" */;
 			buildPhases = (
 				DE1E0F91269F2BF7003ACF6F /* Sources */,
 				DE1E0F92269F2BF7003ACF6F /* Frameworks */,
@@ -139,14 +144,14 @@
 			);
 			dependencies = (
 			);
-			name = "My IP Address";
+			name = MyIPAddress;
 			productName = "My IP Address";
-			productReference = DE1E0F95269F2BF7003ACF6F /* My IP Address.app */;
+			productReference = DE1E0F95269F2BF7003ACF6F /* MyIPAddress.app */;
 			productType = "com.apple.product-type.application";
 		};
-		DE1E0FA4269F2BF7003ACF6F /* My IP AddressTests */ = {
+		DE1E0FA4269F2BF7003ACF6F /* MyIPAddressTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DE1E0FBA269F2BF7003ACF6F /* Build configuration list for PBXNativeTarget "My IP AddressTests" */;
+			buildConfigurationList = DE1E0FBA269F2BF7003ACF6F /* Build configuration list for PBXNativeTarget "MyIPAddressTests" */;
 			buildPhases = (
 				DE1E0FA1269F2BF7003ACF6F /* Sources */,
 				DE1E0FA2269F2BF7003ACF6F /* Frameworks */,
@@ -157,14 +162,14 @@
 			dependencies = (
 				DE1E0FA7269F2BF7003ACF6F /* PBXTargetDependency */,
 			);
-			name = "My IP AddressTests";
+			name = MyIPAddressTests;
 			productName = "My IP AddressTests";
-			productReference = DE1E0FA5269F2BF7003ACF6F /* My IP AddressTests.xctest */;
+			productReference = DE1E0FA5269F2BF7003ACF6F /* MyIPAddressTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		DE1E0FAE269F2BF7003ACF6F /* My IP AddressUITests */ = {
+		DE1E0FAE269F2BF7003ACF6F /* MyIPAddressUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DE1E0FBD269F2BF7003ACF6F /* Build configuration list for PBXNativeTarget "My IP AddressUITests" */;
+			buildConfigurationList = DE1E0FBD269F2BF7003ACF6F /* Build configuration list for PBXNativeTarget "MyIPAddressUITests" */;
 			buildPhases = (
 				DE1E0FAB269F2BF7003ACF6F /* Sources */,
 				DE1E0FAC269F2BF7003ACF6F /* Frameworks */,
@@ -175,9 +180,9 @@
 			dependencies = (
 				DE1E0FB1269F2BF7003ACF6F /* PBXTargetDependency */,
 			);
-			name = "My IP AddressUITests";
+			name = MyIPAddressUITests;
 			productName = "My IP AddressUITests";
-			productReference = DE1E0FAF269F2BF7003ACF6F /* My IP AddressUITests.xctest */;
+			productReference = DE1E0FAF269F2BF7003ACF6F /* MyIPAddressUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -203,7 +208,7 @@
 					};
 				};
 			};
-			buildConfigurationList = DE1E0F90269F2BF7003ACF6F /* Build configuration list for PBXProject "My IP Address" */;
+			buildConfigurationList = DE1E0F90269F2BF7003ACF6F /* Build configuration list for PBXProject "MyIPAddress" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -216,9 +221,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DE1E0F94269F2BF7003ACF6F /* My IP Address */,
-				DE1E0FA4269F2BF7003ACF6F /* My IP AddressTests */,
-				DE1E0FAE269F2BF7003ACF6F /* My IP AddressUITests */,
+				DE1E0F94269F2BF7003ACF6F /* MyIPAddress */,
+				DE1E0FA4269F2BF7003ACF6F /* MyIPAddressTests */,
+				DE1E0FAE269F2BF7003ACF6F /* MyIPAddressUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -255,7 +260,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE1E0F9B269F2BF7003ACF6F /* ContentView.swift in Sources */,
-				DE1E0F99269F2BF7003ACF6F /* My_IP_AddressApp.swift in Sources */,
+				DE1E0F99269F2BF7003ACF6F /* MyIPAddressApp.swift in Sources */,
+				DE1E0FC2269F2C4B003ACF6F /* IPInfo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,7 +269,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE1E0FAA269F2BF7003ACF6F /* My_IP_AddressTests.swift in Sources */,
+				DE1E0FAA269F2BF7003ACF6F /* MyIPAddressTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,7 +277,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE1E0FB4269F2BF7003ACF6F /* My_IP_AddressUITests.swift in Sources */,
+				DE1E0FB4269F2BF7003ACF6F /* MyIPAddressUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,12 +286,12 @@
 /* Begin PBXTargetDependency section */
 		DE1E0FA7269F2BF7003ACF6F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DE1E0F94269F2BF7003ACF6F /* My IP Address */;
+			target = DE1E0F94269F2BF7003ACF6F /* MyIPAddress */;
 			targetProxy = DE1E0FA6269F2BF7003ACF6F /* PBXContainerItemProxy */;
 		};
 		DE1E0FB1269F2BF7003ACF6F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DE1E0F94269F2BF7003ACF6F /* My IP Address */;
+			target = DE1E0F94269F2BF7003ACF6F /* MyIPAddress */;
 			targetProxy = DE1E0FB0269F2BF7003ACF6F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -414,9 +420,15 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"My IP Address/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"MyIPAddress/Preview Content\"";
+				DEVELOPMENT_TEAM = 2J63BMTW78;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "My-IP-Address-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "My IP Address";
+				INFOPLIST_KEY_CFBundleExecutable = MyIPAddress;
+				INFOPLIST_KEY_CFBundleName = "My IP Address";
+				INFOPLIST_KEY_CFBundleVersion = 1;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -428,7 +440,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "net.kyngo.My-IP-Address";
+				PRODUCT_BUNDLE_IDENTIFIER = net.kyngo.whatsmyip;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -443,9 +455,15 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"My IP Address/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"MyIPAddress/Preview Content\"";
+				DEVELOPMENT_TEAM = 2J63BMTW78;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "My-IP-Address-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "My IP Address";
+				INFOPLIST_KEY_CFBundleExecutable = MyIPAddress;
+				INFOPLIST_KEY_CFBundleName = "My IP Address";
+				INFOPLIST_KEY_CFBundleVersion = 1;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -457,7 +475,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "net.kyngo.My-IP-Address";
+				PRODUCT_BUNDLE_IDENTIFIER = net.kyngo.whatsmyip;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -485,7 +503,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/My IP Address.app/My IP Address";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyIPAddress.app/MyIPAddress";
 			};
 			name = Debug;
 		};
@@ -509,7 +527,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/My IP Address.app/My IP Address";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyIPAddress.app/MyIPAddress";
 			};
 			name = Release;
 		};
@@ -560,7 +578,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DE1E0F90269F2BF7003ACF6F /* Build configuration list for PBXProject "My IP Address" */ = {
+		DE1E0F90269F2BF7003ACF6F /* Build configuration list for PBXProject "MyIPAddress" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DE1E0FB5269F2BF7003ACF6F /* Debug */,
@@ -569,7 +587,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DE1E0FB7269F2BF7003ACF6F /* Build configuration list for PBXNativeTarget "My IP Address" */ = {
+		DE1E0FB7269F2BF7003ACF6F /* Build configuration list for PBXNativeTarget "MyIPAddress" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DE1E0FB8269F2BF7003ACF6F /* Debug */,
@@ -578,7 +596,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DE1E0FBA269F2BF7003ACF6F /* Build configuration list for PBXNativeTarget "My IP AddressTests" */ = {
+		DE1E0FBA269F2BF7003ACF6F /* Build configuration list for PBXNativeTarget "MyIPAddressTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DE1E0FBB269F2BF7003ACF6F /* Debug */,
@@ -587,7 +605,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DE1E0FBD269F2BF7003ACF6F /* Build configuration list for PBXNativeTarget "My IP AddressUITests" */ = {
+		DE1E0FBD269F2BF7003ACF6F /* Build configuration list for PBXNativeTarget "MyIPAddressUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DE1E0FBE269F2BF7003ACF6F /* Debug */,
